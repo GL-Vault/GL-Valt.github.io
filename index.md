@@ -9,7 +9,7 @@
 <span style="background:rgba(5, 117, 197, 0.2)">计算机网络</span>：是一个**将分散的，具有独立功能**的计算机系统，通过**通信设备和线路**连接起来，由功能完善的**软件**实现**资源共享和信息传递**的系统。
 
 简单点说，计算机网络是**互联的，自治的**计算机集合。
-<img src="https://i0.hdslb.com/bfs/album/e6b3beb429925cc92b63be1dd2a1bde25f5da065.png" alt="100" style="zoom:50%;" />
+<img src="https://pic.imgdb.cn/item/63edb3a6f144a01007ae121d" alt="100" style="zoom:50%;" />
 
 > 功能 
 
@@ -36,21 +36,21 @@
 
 *   <span style="background:rgba(5, 117, 197, 0.2)">工作方式</span>：分为 `边缘部分和核心部分`。  
 	 **边缘部分** 用户直接使用（C/S 方式——服务端客户端方式，P2P 方式——PeertoPeer，不太理解）  
-	 
+	
 	 **核心部分** 为边缘部分服务   
 
-<img src="https://i0.hdslb.com/bfs/album/2bd21d16a2fc341fd4a2262974482520194df5e6.png" style="zoom:50%;" />
+<img src="https://pic.imgdb.cn/item/63edb3b2f144a01007ae2451" style="zoom:50%;" />
 
 *   <span style="background:rgba(5, 117, 197, 0.2)">功能组成</span>：由 <span style="background:#fff88f">通信子网和资源子网</span> 组成   
 	 **通信子网** 实现数据通信   
 
 	 **资源子网** 实现资源共享 / 数据处理  
 
-<img src="https://i0.hdslb.com/bfs/album/0fe6ecfb961a1beb350567158b87eb8a8e10f326.png" style="zoom: 67%;" />
+<img src="https://pic.imgdb.cn/item/63edb3c1f144a01007ae3bc4" style="zoom: 67%;" />
 
 > 分类  
 
-<img src="https://s2.loli.net/2022/12/31/EsNRKF7LgHMuocD.png" style="zoom:50%;" />
+<img src="https://pic.imgdb.cn/item/63edb3c8f144a01007ae4628" style="zoom:50%;" />
 
 ### 1.2 性能指标
 
@@ -62,7 +62,7 @@
 * 速率单位是b/s，kb/s，Mb/s，Gb/s，Tb/s。
 
 **注意**  
-![](https://i0.hdslb.com/bfs/album/22d766b19b0c3a541427c91e00063fb009ce26fb.png)
+![](https://pic.imgdb.cn/item/63edb3dcf144a01007ae66e9)
 
 > 带宽
 
@@ -84,7 +84,7 @@
 
 指数据（报文 / 分组 / 比特流）从网络（或链路）的<u>一端传送到另一端所需的时间</u>。也叫延迟或迟延。单位是 s。
 
-![](https://i0.hdslb.com/bfs/album/e2a8f179fe56e399ded218edc3e4b202f332eee9.png)
+![](https://pic.imgdb.cn/item/63edb3e5f144a01007ae7602)
 
 <span style="background:#fff88f">总时延=以上四种时延总和</span>    
 
@@ -103,7 +103,7 @@
 
 时延带宽积又称为以比特为单位的链路长度。即 “**某段链路现在有多少比特**”。
 
-![](https://i0.hdslb.com/bfs/album/bf7323a6075800ba5b37e766347e97d1da3a9966.png)
+![](https://pic.imgdb.cn/item/63edb3f7f144a01007ae9293)
 
 > 往返时延 RTT
 
@@ -113,7 +113,7 @@ RTT = <u>往返传播时延（传播时延 * 2）</u>+ 末端处理时延（基�
 
 > 利用率
 
-![](https://i0.hdslb.com/bfs/album/7d93ac77bae8382878eff90dbb3559d8645bca91.png)
+![](https://pic.imgdb.cn/item/63edb401f144a01007aea25a)
 
 **总结**：  
 时延：发送时延+传播时延+排队时延+处理时延  
@@ -123,8 +123,8 @@ RTT = <u>往返传播时延（传播时延 * 2）</u>+ 末端处理时延（基�
 
 ### 1.3 分层结构
 
-![](https://i0.hdslb.com/bfs/album/48221ca2b8dc57e0146cafd87cc1a9a2d3f457ae.png)
-![](https://i0.hdslb.com/bfs/album/67bee0a3e66d30e8cb04c6d83100d1c75028a18b.png)
+![](https://pic.imgdb.cn/item/63edb406f144a01007aea96c)
+![](https://pic.imgdb.cn/item/63edb40af144a01007aeb130)
 
 > 分层的基本原则
 
@@ -151,27 +151,27 @@ RTT = <u>往返传播时延（传播时延 * 2）</u>+ 末端处理时延（基�
 
 <span style="background:#fff88f">上一层的 PDU 变成下一层的 SDU</span>。
 
-![](https://i0.hdslb.com/bfs/album/21dbdf22f91995da5e63d2147087ea48e4a96f03.png)
+![](https://pic.imgdb.cn/item/63edb416f144a01007aec611)
 
 ![](https://pic.imgdb.cn/item/63cd63e6be43e0d30e708144.jpg)
 
 ![](https://pic.imgdb.cn/item/63cd63febe43e0d30e70a8ee.jpg)
 
 **总结**：  
-![](https://i0.hdslb.com/bfs/album/55e5d387ea46ef86f0cd8ca2ada30c890716ae12.png)
+![](https://pic.imgdb.cn/item/63edb421f144a01007aeda12)
 
 
 ### 1.4 OSI 参考模型
 
-![](https://i0.hdslb.com/bfs/album/31357d2e13db0ad3ae86d30888112090d8cebd05.png)
+![](https://pic.imgdb.cn/item/63edb426f144a01007aee2cb)
 *   五层参考模型是为了方便学习而划分出来的，实际上并没有这个模型。  
 
 *   使用 OSI 模型时的通信过程  
 上面四层是相对于起点和终点之间，<u>端对端的协议</u>  
 下面三层是各设备之间的通信，<u>点对点之间</u>(通常是一些路由器、交换机等)  
 
-![](https://i0.hdslb.com/bfs/album/a562cbbafea414183855db8c9625ba0d9ba15d70.png)
-![](https://i0.hdslb.com/bfs/album/e27d9e043c77372040e8e46d102d8bdce60715c0.png)  
+![](https://pic.imgdb.cn/item/63edb42bf144a01007aeeae5)
+![](https://pic.imgdb.cn/item/63edb430f144a01007aef359)  
 
 > 接下来会介绍一下各个层的作用：  
 
@@ -247,7 +247,7 @@ RTT = <u>往返传播时延（传播时延 * 2）</u>+ 末端处理时延（基�
 
 ### 1.5 TCP/IP 模型
 
-![](https://i0.hdslb.com/bfs/album/3afb4d9356af56d1c3e0c9c280c6dab33226dda6.png)
+![](https://pic.imgdb.cn/item/63edb43bf144a01007af0126)
 
 ![](https://pic.imgdb.cn/item/63cd5c81be43e0d30e60e24a.jpg)
 
@@ -262,12 +262,12 @@ RTT = <u>往返传播时延（传播时延 * 2）</u>+ 末端处理时延（基�
 	* OSI定义三点：服务、协议、接口  
 	* OSI先出现，参考模型先于协议发明，不偏向特定协议  
 	* TCP/IP设计之初就考虑到异构网互联问题，将IP作为重要层次  
-	* ![](https://i0.hdslb.com/bfs/album/5a996ef24fe91656fe551482ca287dd2f317a0ad.png)  
+	* ![](https://pic.imgdb.cn/item/63edb442f144a01007af0b6c)  
 	  面向连接分为三个阶段，第一是建立连接，在此阶段，发出一个建立连接的请求。只有在连接成功建立之后，才能开始数据传输，这是第二阶段。接着，当数据传输完毕，必须释放连接。而面向无连接没有这么多阶段，它直接进行数据传输。
 
 ### 1.7 5层参考模型
 
-![](https://i0.hdslb.com/bfs/album/82fb5a89ba9e16b8c617dba5980f52d04f05039c.png)
+![](https://pic.imgdb.cn/item/63edb447f144a01007af123e)
 
 ![](https://pic.imgdb.cn/item/63cd5f8cbe43e0d30e676989.jpg)
 
@@ -279,7 +279,7 @@ RTT = <u>往返传播时延（传播时延 * 2）</u>+ 末端处理时延（基�
 
 <span style="background:#fff88f">5层参考模型的数据封装与解封装：</span>   
 
-![](https://i0.hdslb.com/bfs/album/cea681ed52a7b54cb9186efc1f1d79526beb3d23.png)
+![](https://pic.imgdb.cn/item/63edb450f144a01007af1e3d)
 
 
 ## 二、 物理层
@@ -304,7 +304,7 @@ RTT = <u>往返传播时延（传播时延 * 2）</u>+ 末端处理时延（基�
 
 *   调制解调器就是路由器
 
-![](https://i0.hdslb.com/bfs/album/1c0c9aab88d2e476e14cd705d25e3002514f5c53.png)
+![](https://pic.imgdb.cn/item/63edb456f144a01007af25ee)
 
 > 相关术语
 
@@ -312,12 +312,12 @@ RTT = <u>往返传播时延（传播时延 * 2）</u>+ 末端处理时延（基�
 *   <span style="background:#fff88f">数据 data</span>: <u>传送信息的实体</u>，通常是有意义的符号序列。
 *   <span style="background:#fff88f">信号</span>: 数据的电气 / 电磁的表现，是**数据在传输过程中的存在形式**。  
 	分为**数字信号** 和**模拟信号**  
-	![](https://i0.hdslb.com/bfs/album/88f05431fe9fb35499bc51dc886d53aa6e071d6a.png)
+	![](https://pic.imgdb.cn/item/63edb45cf144a01007af2e20)
 
 *   <span style="background:#fff88f">信源</span>: 产生和发送数据的源头。
 *   <span style="background:#fff88f">信宿</span>: 接收数据的终点。
 *   <span style="background:#fff88f">信道</span>: <u>信号的传输媒介</u>。一般用来表示向某一个方向传送信息的介质，因此一条通信线路往往包含一条发送信道和一条接收信道。
-	![](https://i0.hdslb.com/bfs/album/9c2519536d62a697e22a77970b804876d1b25f88.png)
+	![](https://pic.imgdb.cn/item/63edb465f144a01007af3b4e)
 
 > 数据传输方式
 
@@ -326,13 +326,14 @@ RTT = <u>往返传播时延（传播时延 * 2）</u>+ 末端处理时延（基�
 	<span style="background:rgba(5, 117, 197, 0.2)">全双工通信</span>：<u>通信双方可以同时发送和接受信息</u>，**也需要两条信道**。（打电话）
 
 
-* <span style="background:rgba(5, 117, 197, 0.2)">串行传输</span>：将表示一个字符的 8 位二进制数按由低位到高位的顺序依次发送。  
-	特点：速度慢，费用低，适合远距离
-	![](https://i0.hdslb.com/bfs/album/0e5b13face18f01b715cf13352e88ceb1c833719.png)
+* <span style="background:rgba(5, 117, 197, 0.2)">串行传输</span>：将表示一个字符的 8 位二进制数按由低位到高位的顺序依次发送。 
 
-	<span style="background:rgba(5, 117, 197, 0.2)">并行传输</span>：将表示一个字符的 8 位二进制数同时通过 8 条信道发送。  
-	特点：速度快，费用高，适合近距离。
-	![](https://i0.hdslb.com/bfs/album/4b13abd29a53d15d73c7715dc328eed7baaf89e3.png)
+特点：速度慢，费用低，适合远距离
+![](https://i0.hdslb.com/bfs/album/0e5b13face18f01b715cf13352e88ceb1c833719.png)
+	
+<span style="background:rgba(5, 117, 197, 0.2)">并行传输</span>：将表示一个字符的 8 位二进制数同时通过 8 条信道发送。  
+特点：速度快，费用高，适合近距离。
+![](https://pic.imgdb.cn/item/63edb4c8f144a01007afc8c1)
 
 ### 2.3 码元，速率，波特
 
@@ -591,7 +592,7 @@ $$信噪比 = \frac{信号的平均功率}{噪声的平均功率} 常记为 \fra
 
 <span style="background:#d2cbff">集线器的功能</span>: <span style="background:#fff88f">对6信号进行再生放大转发，对衰减的信号进行放大，接着转发到其他所有（除输入端口外）处于工作状态的端口上，以增加信号传输的距离，延长网络的长度</span>。<u>不具备信号的定向传送能力，是一个共享式设备</u>。(就是个广播)
 
-![](https://i0.hdslb.com/bfs/album/55b0670af6055f706944aeee5da4feaaa1b90846.png)
+![](https://pic.imgdb.cn/item/63edb76df144a01007b3b7a3)
 
 
 ## 三、数据链路层
@@ -615,7 +616,7 @@ $$信噪比 = \frac{信号的平均功率}{噪声的平均功率} 常记为 \fra
 :star:<span style="background:#fff88f">主要作用</span>是<u>加强物理层传输原始比特流的功能，将物理层提供的可能出错的物理连接改造成为逻辑上无差错的数据链路，使之对网络层表现为一条无差错的链路</u>。  
 
 漫画解释：  
-![](https://i0.hdslb.com/bfs/album/96db465137339760c4ba48180838612b09d296b2.png)
+![](https://pic.imgdb.cn/item/63edb762f144a01007b3a8bd)
 
 *   功能一：为网络层提供服务。（无确认无连接服务，有确认无连接服务，有确认面向连接服务。）
 *   功能二：链路管理，即连接的建立、维持、释放（用于面向连接的服务）。
@@ -634,9 +635,10 @@ $$信噪比 = \frac{信号的平均功率}{噪声的平均功率} 常记为 \fra
 *   <span style="background:#d2cbff">组帧的四种方法</span>: 1. 字符计数法，2. 字符 (节）填充法，3. 零比特填充法，4. 违规编码法。
 
 
-![](https://i0.hdslb.com/bfs/album/714237deb054cb5c78875aa22bb8545527da57ae.png)
+![](https://pic.imgdb.cn/item/63edb75ff144a01007b3a390)
 
 * 透明传输
+
 	透明传输<span style="background:#fff88f">指不管所传数据是什么样的比特组合，都应当能够在链路上传送</span>。  
 	
 	<u>如果所传数据的比特组合与某个控制信号完全相同，需要采取适当的措施，防止接收方误认为某种控制信号。保证数据链路层的传输是透明的</u>。  
@@ -647,7 +649,7 @@ $$信噪比 = \frac{信号的平均功率}{噪声的平均功率} 常记为 \fra
 
 *   帧首部使用一个计数字段，也就是==每个帧的第一个字节==（八位）<span style="background:#fff88f">来标明帧内字符数</span>。
 
-![](https://i0.hdslb.com/bfs/album/7c8e25572804fc4c2338480bf6bee5c7805ef407.png)
+![](https://pic.imgdb.cn/item/63edb75df144a01007b3a14f)
 
 ==缺陷==：<span style="background:#fff88f">第一个数错误的话，剩下的就全部错误</span>了。因此不经常使用。
 
@@ -656,24 +658,24 @@ $$信噪比 = \frac{信号的平均功率}{噪声的平均功率} 常记为 \fra
 *   联想 java 中的转义字符。  
 防止接收端**误认为**中间部分的字段为<u>开始字符SOH</u>和<u>结束字符EOT</u>（包括转义字符ESC等），通常**添加类似转义字符ESC**，跳过该字段，知道遇到真正的结束字符。
 
-![](https://i0.hdslb.com/bfs/album/64c1f74396c7c4af6e58d9959a005e41e9c9db9b.png)
+![](https://pic.imgdb.cn/item/63edb758f144a01007b39a22)
 
 #### 3. 零比特填充法
 
-![](https://i0.hdslb.com/bfs/album/2f7737cd5d4d9465b9b298608794de14a6400b3e.png)
+![](https://pic.imgdb.cn/item/63edb757f144a01007b3991c)
 
 ==注意==：首位标志字段是<span style="background:#fff88f"> 连续的 6 个 1</span>  
 为了信息字段与首位进行区别，操作如下：  
 1. 在<span style="background:#fff88f">发送端</span>，扫描整个信息字段，<u>只要连续 5 个 1，就立即填入 1 个 0</u>。   
 2. 在<span style="background:#fff88f">接收端</span>收到一个帧时，先找到标志字段确定边界，再用硬件对比特流进行扫描。<u>发现连续 5 个 1 时，就把后面的 0 删除</u>。
 
-![](https://i0.hdslb.com/bfs/album/6726bda34b4e510a8c745f18dc5a4dd4eba47d62.png)
+![](https://pic.imgdb.cn/item/63edb752f144a01007b392a2)
 
 **保证了透明传输: 在传送的比特流中可以传送任意比特组合，而不会引起对帧边界的判断错误**。
 
 #### 4. 违规编码法
 
-![](https://i0.hdslb.com/bfs/album/80339b6a324b657807f1bdcdbd436d14dc58c607.png)
+![](https://pic.imgdb.cn/item/63edb747f144a01007b38344)
 
 <span style="background:#fff88f">可以用 “高 - 高”，“低 - 低” 来定界帧的起始和终止</span>。
 
@@ -695,13 +697,13 @@ $$信噪比 = \frac{信号的平均功率}{噪声的平均功率} 常记为 \fra
 
 *   差错种类
 
-![](https://i0.hdslb.com/bfs/album/5eb7daff53767cfd6807ab76bdd602c988a99ff7.png)
+![](https://pic.imgdb.cn/item/63edb742f144a01007b37c05)
 
 ![](https://img-blog.csdnimg.cn/img_convert/ff8ae111b4bceec5ec15a6ce84d65597.png)
 
 #### 2. 差错控制（位错）
 
-![](https://i0.hdslb.com/bfs/album/8a6189b8c03c0e74c41223aa0b9b98bc4510b13b.png)
+![](https://pic.imgdb.cn/item/63edb740f144a01007b37889)
 
 > 冗余编码
 
@@ -711,12 +713,12 @@ $$信噪比 = \frac{信号的平均功率}{噪声的平均功率} 常记为 \fra
 
 *   注意：“1” 的个数包括检验元
 
-![](https://i0.hdslb.com/bfs/album/be8cf682376dd325dd86fb1446819482c0d03606.png)
+![](https://pic.imgdb.cn/item/63edb73df144a01007b3749a)
 
 
 > CRC 循环校验码
 
-![](https://i0.hdslb.com/bfs/album/29eb1837edd111995231f682e8a3c8519e215c65.png)
+![](https://pic.imgdb.cn/item/63edb738f144a01007b36f1b)
 
 *   接收端如何检错  
     把收到的每一个帧都除以同样的除数，然后检查得到的余数 R。
@@ -731,17 +733,17 @@ $$信噪比 = \frac{信号的平均功率}{噪声的平均功率} 常记为 \fra
 
 *   **海明码: 发现双比特错，纠正单比特错。**
 
-![](https://i0.hdslb.com/bfs/album/ee5dd6ead2d6ee2f40685d6cb5d94d169340486d.png)
+![](https://pic.imgdb.cn/item/63edb735f144a01007b36a18)
 
 #### 1. 确定校验码的位数 r
 
-![](https://i0.hdslb.com/bfs/album/7a5ec5ee3d9ac7d0299be23ef977490cba5e5e8f.png)
+![](https://pic.imgdb.cn/item/63edb72df144a01007b35ef8)
 
 #### 2. 确定校验码和数据的位置
 
 *   校验码放在 2 的几次方的位置，如 2^0,2^1,2^2…
 
-![](https://i0.hdslb.com/bfs/album/ed212e03275d3c66b0c0a35873ba7b61bd13e108.png)
+![](https://pic.imgdb.cn/item/63edb72bf144a01007b35bff)
 
 #### 3. 求出校验码的值
 
@@ -754,11 +756,11 @@ $$信噪比 = \frac{信号的平均功率}{噪声的平均功率} 常记为 \fra
 
 例：P2第三位为1，先找出二进制第三位与P2相同的有……
 
-![](https://i0.hdslb.com/bfs/album/3884de06f8c8f964b55669e8bce78c7400a6d515.png)
+![](https://pic.imgdb.cn/item/63edb725f144a01007b3509f)
 
 #### 4. 检错并纠错
 
-![](https://i0.hdslb.com/bfs/album/9ebda0789ce494611724bf720db3ebc3333ebb93.png)
+![](https://pic.imgdb.cn/item/63edb721f144a01007b3488f)
 
 **对所有要校验的位进行异或运算。**
 
@@ -782,49 +784,49 @@ P1⊕D1⊕D2⊕D4⊕D5=1。
 
 > 流量控制的方法
 
-![](https://i0.hdslb.com/bfs/album/377d1c67d476d9d1bf54bdaebbae1774a48779fb.png)
+![](https://pic.imgdb.cn/item/63edb71ef144a01007b344e4)
 
 *   三者的区别
 
-![](https://i0.hdslb.com/bfs/album/1aa4d1e7d9254246b801f800346ff32e30bfd5ab.png)
+![](https://pic.imgdb.cn/item/63edb719f144a01007b33d83)
 
 *   可靠传输，流量控制，滑动窗口
 
-![](https://i0.hdslb.com/bfs/album/01b8d303911380887c8dda83db63666677c68cc5.png)
+![](https://pic.imgdb.cn/item/63edb715f144a01007b33697)
 
 ### 3.6 停止——等待协议
 
-![](https://i0.hdslb.com/bfs/album/7a5a21387c7700fb3c84db70aa1c59772deee935.png)
+![](https://pic.imgdb.cn/item/63edb712f144a01007b332c7)
 
 *   下面来介绍一下停等协议的几种应用情况
 
 #### 1. 无差错情况
 
-![](https://i0.hdslb.com/bfs/album/47a0b6aa442040eb035ee7b167edc8a85aa0a20b.png)
+![](https://pic.imgdb.cn/item/63edb70df144a01007b32b61)
 
 #### 2. 数据帧丢失或者帧出错
 
-![](https://i0.hdslb.com/bfs/album/552f8b6926738aaddac5227d42d36cc83c6b4106.png)
+![](https://pic.imgdb.cn/item/63edb70af144a01007b32777)
 
 #### 3.ACK（确认帧）丢失
 
-![](https://i0.hdslb.com/bfs/album/b43ad3ecd14fc7a471e0f98616fb602f20485550.png)
+![](https://pic.imgdb.cn/item/63edb707f144a01007b32299)
 
 #### 4.ACK 迟到
 
-![](https://i0.hdslb.com/bfs/album/7f65b1062554945eca0416f5c15bda80cd63bd25.png)
+![](https://pic.imgdb.cn/item/63edb703f144a01007b31ca8)
 
 #### 5. 信道利用率
 
-![](https://i0.hdslb.com/bfs/album/7bfe2903ea9c96978c049989314d778c477c3a4f.png)
+![](https://pic.imgdb.cn/item/63edb700f144a01007b31902)
 
-![](https://i0.hdslb.com/bfs/album/6906a27a232931becff9a7f678192571f7a3ef6c.png)
+![](https://pic.imgdb.cn/item/63edb6fdf144a01007b3146f)
 
 ### 3.7 后退 N 帧协议（GBN）
 
 #### 1. 图解
 
-![](https://i0.hdslb.com/bfs/album/04ba4b3d41bfc9f33fac97e43416d1e07d3bdb00.png)
+![](https://pic.imgdb.cn/item/63edb6faf144a01007b31078)
 
 #### 2.GBK 发送方必须响应的三件事
 
@@ -841,7 +843,7 @@ P1⊕D1⊕D2⊕D4⊕D5=1。
 
 其余情况都丢弃帧，**并为最近按序接收的帧重新发送 ACK**（如图所示）。接收方无需缓存任何失序帧，只需要维护一个信息: expectedseqnum(下一个按序接收的帧序号）。
 
-![](https://i0.hdslb.com/bfs/album/ca7e72fe577c9b930366a4241c2b7ffec869b166.png)
+![](https://pic.imgdb.cn/item/63edb6f4f144a01007b30804)
 
 #### 4. 滑动窗口的长度
 
@@ -863,7 +865,7 @@ P1⊕D1⊕D2⊕D4⊕D5=1。
 
 #### 1. 滑动窗口
 
-![](https://i0.hdslb.com/bfs/album/cc8658bd656d3901cac4bca0a539ab51316e8e28.png)
+![](https://pic.imgdb.cn/item/63edb6f0f144a01007b30214)
 
 #### 2.SR 发送方必须响应的三件事
 
@@ -880,11 +882,11 @@ P1⊕D1⊕D2⊕D4⊕D5=1。
 
 #### 3.SR 接收方要做的事
 
-![](https://i0.hdslb.com/bfs/album/d3bbd1b29339d3f4408398f181f9dfd6e8698879.png)
+![](https://pic.imgdb.cn/item/63edb6ebf144a01007b2f948)
 
 #### 4. 滑动窗口长度
 
-![](https://i0.hdslb.com/bfs/album/9bab3c4e9595cd948d55ed09b17cc719146ca7bf.png)
+![](https://pic.imgdb.cn/item/63edb6e7f144a01007b2f546)
 
 ### 3.9 信道划分介质访问控制
 
@@ -897,13 +899,13 @@ P1⊕D1⊕D2⊕D4⊕D5=1。
 
 介质访问控制的内容就是，采取一定的措施，使得两对节点之间的通信不会发生互相干扰的情况。
 
-![](https://i0.hdslb.com/bfs/album/d3376d8a64c5de6be5b1364ed8717c7ce5426a9b.png)
+![](https://pic.imgdb.cn/item/63edb6e4f144a01007b2f04b)
 
 #### 3. 信道划分介质访问控制
 
 信道划分介质访问控制: 将使用介质的每个设备与来自同一信道上的其他设备的通信隔离开，把时域和频域资源合理地分配给网络上的设备。
 
-![](https://i0.hdslb.com/bfs/album/37df35a8205548d7e7ba97f2b4ba80e49a5c5936.png)
+![](https://pic.imgdb.cn/item/63edb6dff144a01007b2ea30)
 
 *   下面来介绍几种多路复用技术。
 
@@ -912,7 +914,7 @@ P1⊕D1⊕D2⊕D4⊕D5=1。
 用户在分配到一定的频带后，在通信过程中自始至终都占用这个频带。频分复用的所有用户在同样的时间占用不同的带宽（频率带宽）资源。  
 优点：充分利用传输介质带宽，系统效率较高 ; 由于技术比较成熟，实现也比较容易。
 
-![](https://i0.hdslb.com/bfs/album/9486e43103b0d8f6ffca75af245f2c2fef0af995.png)
+![](https://pic.imgdb.cn/item/63edb6dbf144a01007b2e41f)
 
 #### 5. 时分多路复用 TDM
 
@@ -920,19 +922,19 @@ P1⊕D1⊕D2⊕D4⊕D5=1。
 
 这样做有一个弊端，就是当 ABC 都不传输数据的时候，D 仍然要等待，不能直接传输。信道利用率只有 1/4.
 
-![](https://i0.hdslb.com/bfs/album/f54b969d3293d50478e5dc3a60fae464f62190a7.png)
+![](https://pic.imgdb.cn/item/63edb6d8f144a01007b2e06a)
 
 #### 5. 改进时分复用——统计时分复用 STDM
 
 *   ABCD 中任何一个想传输数据时，直接发送即可。不用等到自己的时间段，信道利用率大大提高。
 
-![](https://i0.hdslb.com/bfs/album/f9bf4c121701aa29a2f943e766495c696647f4e7.png)
+![](https://pic.imgdb.cn/item/63edb6d3f144a01007b2d901)
 
 #### 6. 波分多路复用 WDM
 
 波分多路复用就是**光的频分多路复用**，在一根光纤中传输多种不同波长（频率）的光信号，由于波长（频率) 不同，所以各路光信号互不干扰，最后再用波长分解复用器将各路波长分解出来。
 
-![](https://i0.hdslb.com/bfs/album/0c00fb045d3dcdf19dfc831887f75ddbbcc07798.png)
+![](https://pic.imgdb.cn/item/63edb6d0f144a01007b2d43a)
 
 #### 7. 码分多路复用（CDMA）
 
@@ -954,13 +956,13 @@ P1⊕D1⊕D2⊕D4⊕D5=1。
 
 纯 ALOHA 协议思想: 不监听信道，不按时间槽发送，随机重发。**想发就发**
 
-![](https://i0.hdslb.com/bfs/album/9e82581f4c8d5ef556fc22984f63ecfbc48f1ee9.png)
+![](https://pic.imgdb.cn/item/63edb6caf144a01007b2caf8)
 
 #### 2. 时隙 ALOHA 协议
 
 时隙 ALOHA 协议的思想: 把时间分成若干个相同的时间片，所有用户在时间片开始时刻同步接入网络信道，若发生冲突，则必须等到下一个时间片开始时刻再发送。 **控制想发就发的随意性**
 
-![](https://i0.hdslb.com/bfs/album/01dbbf044fb1d2895d895c61c72d5ec5c30e8c79.png)
+![](https://pic.imgdb.cn/item/63edb6c7f144a01007b2c632)
 
 ### 3.11 CSMA 协议
 
@@ -974,7 +976,7 @@ P1⊕D1⊕D2⊕D4⊕D5=1。
 
 **协议思想: 发送帧之前，监听信道。**
 
-![](https://i0.hdslb.com/bfs/album/d8c79a07f158812721b55c5d6d1cd1f815783dd5.png)
+![](https://pic.imgdb.cn/item/63edb6c4f144a01007b2c24c)
 
 #### 1. 1—坚持 CSMA
 
@@ -1010,7 +1012,7 @@ P1⊕D1⊕D2⊕D4⊕D5=1。
 
 #### 4. 对比总结
 
-![](https://i0.hdslb.com/bfs/album/5477cf08e027606db554cbcbecbe1d203dd4f33c.png)
+![](https://pic.imgdb.cn/item/63edb6bff144a01007b2bb7e)
 
 ### 3.12 CSMA/CD 协议
 
@@ -1034,7 +1036,7 @@ MA: 多点接入，表示许多计算机以多点接入的方式连接在一根�
 
 答：
 
-![](https://i0.hdslb.com/bfs/album/e84f7e07a849e23926e15c5fb552d9ef9d98f221.png)
+![](https://pic.imgdb.cn/item/63edb6bcf144a01007b2b8c7)
 
 若连续多次发生冲突, 就表明可能有较多的站参与争用信道。使用此算法可使重传需要推迟的平均时间随重传次数的增大而增大，因而减小发生碰撞的概率，有利于整个系统的稳定。
 
@@ -1042,13 +1044,13 @@ MA: 多点接入，表示许多计算机以多点接入的方式连接在一根�
 
 如果帧的长度太小，可能在站点停止传送之前，就已经传送完了。因此需要确定一个最小帧长。
 
-![](https://i0.hdslb.com/bfs/album/1a4c801b1b68a5817de482fbd2f98e6c7f18f305.png)
+![](https://pic.imgdb.cn/item/63edb6b9f144a01007b2b251)
 
 ### 3.13 CSMA/CA 协议
 
 CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
-![](https://i0.hdslb.com/bfs/album/2960127d6179778397a245e42cffdcac16086f15.png)
+![](https://pic.imgdb.cn/item/63edb6b6f144a01007b2aea8)
 
 > 工作原理
 
@@ -1061,7 +1063,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 > CSMA/CA 和 CSMA/CD 对比
 
-![](https://i0.hdslb.com/bfs/album/86b129462e60e71c40629feb08b2ec8bc4e2420e.png)
+![](https://pic.imgdb.cn/item/63edb6b2f144a01007b2a790)
 
 ### 3.14 轮训访问介质控制访问
 
@@ -1069,11 +1071,11 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 #### 1. 轮训协议
 
-![](https://i0.hdslb.com/bfs/album/65615812a2a42ef896f875d9b076ef59b86685c3.png)
+![](https://pic.imgdb.cn/item/63edb6aff144a01007b2a293)
 
 #### 2. 令牌传递协议
 
-![](https://i0.hdslb.com/bfs/album/04cab1c55062187b14034ab919860c5ce1ec849a.png)
+![](https://pic.imgdb.cn/item/63edb6adf144a01007b29e11)
 
 > 以下几节的内容都不是重点，了解即可。
 
@@ -1096,25 +1098,25 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 #### 1. 拓扑结构
 
-![](https://i0.hdslb.com/bfs/album/d074e270f3df395dad038298188d470b2e19ad44.png)
+![](https://pic.imgdb.cn/item/63edb6aaf144a01007b29a43)
 
 #### 2. 传输介质
 
-![](https://i0.hdslb.com/bfs/album/05c7ac719a96b6869405804b1e615ea36bbe0e33.png)
+![](https://pic.imgdb.cn/item/63edb6a8f144a01007b2977f)
 
 #### 3. 介质访问控制方法
 
-![](https://i0.hdslb.com/bfs/album/618a4ad5748f9f0686233ac533e7f81f2115d959.png)
+![](https://pic.imgdb.cn/item/63edb6a7f144a01007b294f5)
 
 #### 4.MAC 子层和 LLC 子层
 
-![](https://i0.hdslb.com/bfs/album/9785074baf638ba0970dba52ce18e87ddef49d01.png)
+![](https://pic.imgdb.cn/item/63edb6a1f144a01007b28dc7)
 
 ### 3.16 以太网
 
 #### 1. 概述
 
-![](https://i0.hdslb.com/bfs/album/ac49404911ba39c74f63fed3521f5b1ae919628e.png)
+![](https://pic.imgdb.cn/item/63edb69ef144a01007b289ef)
 
 #### 2. 提供无连接，不可靠的服务
 
@@ -1124,17 +1126,17 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 #### 3. 10BASE—T 以太网
 
-![](https://i0.hdslb.com/bfs/album/31823fccbdb3b7e68123d44dcf9be2d787e20130.png)
+![](https://pic.imgdb.cn/item/63edb69cf144a01007b286ed)
 
 #### 4. 适配器与 MAC 地址
 
 *   **计算机与外界有局域网的连接是通过通信适配器的。**
 
-![](https://i0.hdslb.com/bfs/album/a86cc547bcfb34f3321809e2cb7f19e621771652.png)
+![](https://pic.imgdb.cn/item/63edb698f144a01007b28169)
 
 #### 5. MAC 帧
 
-![](https://i0.hdslb.com/bfs/album/91c637b8d336d7e579cca27b9bcabe169d58ad3d.png)
+![](https://pic.imgdb.cn/item/63edb698f144a01007b280bf)
 
 ### 3.17 PPP 协议和 HDLC 协议
 
@@ -1148,7 +1150,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 **局域网强调信息传递，广域网强调资源共享。**
 
-![](https://i0.hdslb.com/bfs/album/e1a955aaeeba08a52ebcb9aa7253f55849dff3b9.png)
+![](https://pic.imgdb.cn/item/63edb693f144a01007b27a47)
 
 #### 2.PPP 协议
 
@@ -1179,33 +1181,33 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 > 组成部分
 
-![](https://img-blog.csdnimg.cn/img_convert/e3d9401f8bc5337e8f8d2157dc710204.png)
+![](https://pic.imgdb.cn/item/63edb68cf144a01007b27026)
 
 > PPP 协议的状态图
 
-![](https://i0.hdslb.com/bfs/album/1b5d4c4509208647578c66e215378573c427adf4.png)
+![](https://pic.imgdb.cn/item/63edb687f144a01007b26981)
 
 > PPP 协议的帧格式
 
-![](https://i0.hdslb.com/bfs/album/1e762347a68ffaea5445521caeeaf02faa7d6443.png)
+![](https://pic.imgdb.cn/item/63edb684f144a01007b2652c)
 
 #### 3.HDLC 协议
 
 > 简介
 
-![](https://i0.hdslb.com/bfs/album/ef5915603a3b2dee13b45af8e3e28d49d5025739.png)
+![](https://pic.imgdb.cn/item/63edb680f144a01007b25f8d)
 
 > HDLC 的站
 
-![](https://i0.hdslb.com/bfs/album/56cd80e2cf8e34b4a740124fa83172eebfb1d148.png)
+![](https://pic.imgdb.cn/item/63edb67df144a01007b25ae0)
 
 > 帧格式
 
-![](https://i0.hdslb.com/bfs/album/a17f3462afe68d60994d1929818403564ecb101c.png)
+![](https://pic.imgdb.cn/item/63edb67af144a01007b256f6)
 
 #### 4. 两种协议对比
 
-![](https://i0.hdslb.com/bfs/album/109f5a49f0041862c7bfe9db8b92199f04ad6094.png)
+![](https://pic.imgdb.cn/item/63edb677f144a01007b251cf)
 
 ### 3.18 链路层设备
 
@@ -1213,7 +1215,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 网桥根据 **MAC 帧的目的地址**对帧进行**转发和过滤**。当网桥收到一个帧时，并不向所有接口转发此帧，而是先检查此帧的目的 MAC 地址，然后再确定将该帧转发到哪一个接口，或者是把它丢弃（即过滤）。
 
-![](https://i0.hdslb.com/bfs/album/85c20083f8f766d487efc15f0ba8a8086300d496.png)
+![](https://pic.imgdb.cn/item/63edb674f144a01007b24da6)
 
 网桥分为透明网桥和源路由网桥。
 
@@ -1226,13 +1228,13 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
     方法 : 源站以广播方式向欲通信的目的站发送一个发现帧。可能有好几个路径到达目的栈，发现帧会记录到达的时间，返回给源站，由此确定最佳路由信息。
     
 
-![](https://i0.hdslb.com/bfs/album/822f2c111fa16806a2d5dd77f4c9e477bc53228f.png)
+![](https://pic.imgdb.cn/item/63edb670f144a01007b24802)
 
 #### 2. 以太网交换机
 
 以太网交换机就是多端口的网桥。现在基本上都在使用以太网交换机。分为两类。
 
-![](https://i0.hdslb.com/bfs/album/f970589266234e8349a63e783f8f7350f67815f5.png)
+![](https://pic.imgdb.cn/item/63edb66df144a01007b2446b)
 
 #### 3. 冲突域和广播域
 
@@ -1241,7 +1243,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 **重点**
 
-![](https://i0.hdslb.com/bfs/album/5428cc956e743a179214c1c4a3531a022b405e3d.png)
+![](https://pic.imgdb.cn/item/63edb669f144a01007b23de3)
 
 ## 四、网络层
 ------
@@ -1264,31 +1266,31 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 #### 1. 电路交换
 
-![](https://i0.hdslb.com/bfs/album/46c4bb07e7e8fdaa158ecdccc5dfebacace68270.png)
+![](https://pic.imgdb.cn/item/63edb665f144a01007b23765)
 
 *   优缺点
 
-![](https://i0.hdslb.com/bfs/album/157cc2b1e6953eada8a0578ab00c1ad7f036b2c8.png)
+![](https://pic.imgdb.cn/item/63edb662f144a01007b231c4)
 
 #### 2. 报文交换
 
-![](https://i0.hdslb.com/bfs/album/9cdb669c6ddde2ba66f9f05119b9dbdfec518d9e.png)
+![](https://pic.imgdb.cn/item/63edb65ef144a01007b22a9c)
 
 *   优缺点
 
-![](https://i0.hdslb.com/bfs/album/d9ef39a4f88dc790fd51ebaa50bb1e364082fd16.png)
+![](https://pic.imgdb.cn/item/63edb65bf144a01007b2267a)
 
 #### 3. 分组交换
 
-![](https://i0.hdslb.com/bfs/album/0b08511502fd5aa3d913bc7001bb7cdfc65725bb.png)
+![](https://pic.imgdb.cn/item/63edb656f144a01007b21ee8)
 
 *   优缺点
 
-![](https://i0.hdslb.com/bfs/album/2e9078cba94f7f693e81d7a1c90bb7738497e88c.png)
+![](https://pic.imgdb.cn/item/63edb654f144a01007b21a97)
 
 #### 4. 三种方式对比
 
-![](https://i0.hdslb.com/bfs/album/d049cb2cce84eb5d112546ae0d1d9b991f8c2700.png)]
+![](https://pic.imgdb.cn/item/63edb650f144a01007b215f8)]
 
 #### 5. 传输单元名词辨析
 
@@ -1311,31 +1313,31 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 > 数据报
 
-![](https://i0.hdslb.com/bfs/album/d12278ce9f34472f7db75d8d8fcd158ae09d3568.png)
+![](https://pic.imgdb.cn/item/63edb64cf144a01007b21032)
 
 > 虚电路
 
-![](https://i0.hdslb.com/bfs/album/4bbeea2106639c67d15b6d45bb6f8ee909766811.png)
+![](https://pic.imgdb.cn/item/63edb649f144a01007b20a79)
 
 > 对比
 
-![](https://i0.hdslb.com/bfs/album/4e0b03229b4f4559d940e833eee397444897c373.png)
+![](https://pic.imgdb.cn/item/63edb647f144a01007b205cd)
 
 ### 4.3 IP 数据报格式
 
-![](https://i0.hdslb.com/bfs/album/743e6f1d0cc5f0a6c02c46670de5e59bae8a1a27.png)
+![](https://pic.imgdb.cn/item/63edb641f144a01007b1fe7b)
 
 *   详细图解 (中间的标识，标志，偏移量在下一小节中进行讲解)
 
-![](https://i0.hdslb.com/bfs/album/32bc2d7f995761d77b74355eb35730024dac7e9e.png)
+![](https://pic.imgdb.cn/item/63edb63df144a01007b1f97e)
 
 ### 4.4 IP 数据报分片
 
-![](https://i0.hdslb.com/bfs/album/835747b90cd3a02a421ab881faa9bf70ab407ecb.png)
+![](https://pic.imgdb.cn/item/63edb639f144a01007b1f459)
 
 *   中间三个的含义
 
-![](https://i0.hdslb.com/bfs/album/d55dc5f907d602e5047e7ed42e46f26390659d29.png)
+![](https://pic.imgdb.cn/item/63edb636f144a01007b1ef99)
 
 *   下面通过一个例题来加深理解。
 
@@ -1343,7 +1345,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 数据部分的第一个字节位置为 0。所以数据报片 1 的偏移量为 0。 数据报片 2 起始地址为 1400B。 偏移量单位为 8B, 所以偏移量为 1400/8=175。 数据报片 3 同理。
 
-![](https://i0.hdslb.com/bfs/album/e309c1edae5d33723aa6566082043f0c919eb7f9.png)
+![](https://pic.imgdb.cn/item/63edb633f144a01007b1eb35)
 
 ### 4.5 分类的 IPv4 地址
 
@@ -1351,21 +1353,21 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 *   IP 地址由网络号和主机号组成。
 *   为了人类方便识别，我们经常使用点分十进制来表示 IP 地址。
 
-![](https://i0.hdslb.com/bfs/album/67a516d315fb855ed0f0403b4688df3bd6cecc8d.png)
+![](https://pic.imgdb.cn/item/63edb62ff144a01007b1e5f7)
 
 > IP 地址的分类
 
 *   根据网络号所占字节的多少，将 IP 地址分为 5 类。之所以会减一，减二，是因为含有一些特殊的 IP 地址。
 
-![](https://i0.hdslb.com/bfs/album/448f20cf188e87dcc87f6b11da2ce2d56be11f66.png)
+![](https://pic.imgdb.cn/item/63edb62bf144a01007b1df6d)
 
 *   其中包含一些特殊的 IP 地址，如图所示。
 
-![](https://i0.hdslb.com/bfs/album/20480e8d0981da1865a0f1986b80d9efebbf759f.png)
+![](https://pic.imgdb.cn/item/63edb627f144a01007b1d9af)
 
 *   私有 IP 地址（网段个数就是网络号的个数）
 
-![](https://i0.hdslb.com/bfs/album/9eb4582a6f6660bfa0e6738fe942fd9dd1ae621d.png)
+![](https://pic.imgdb.cn/item/63edb622f144a01007b1d339)
 
 ### 4.6 网络地址转换 NAT
 
@@ -1380,7 +1382,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
     以此来获取数据。
     
 
-![](https://i0.hdslb.com/bfs/album/ecb1c78f06ea12a43c5d2586b3d703344dcf4227.png)
+![](https://pic.imgdb.cn/item/63edb61ff144a01007b1cec4)
 
 ### 4.7 子网划分与子网掩码
 
@@ -1391,17 +1393,17 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 > 子网划分
 
-![](https://i0.hdslb.com/bfs/album/0349ba92fae7c3cfa317734e95deb7b750cfbd9c.png)
+![](https://pic.imgdb.cn/item/63edb61bf144a01007b1c8fb)
 
 > 子网掩码
 
 子网掩码与 IP 地址逐位相与，就得到子网网络地址。
 
-![](https://i0.hdslb.com/bfs/album/930a33e3e4dafea98c8fba236170274108d7e69b.png)
+![](https://pic.imgdb.cn/item/63edb617f144a01007b1c39d)
 
 > 使用子网分组时的转发
 
-![](https://i0.hdslb.com/bfs/album/ecbe26428531b1e51b27aeb7c2bd095f5745786b.png)
+![](https://pic.imgdb.cn/item/63edb614f144a01007b1beac)
 
 **解释**
 
@@ -1412,15 +1414,15 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 ### 4.8 无分类变址 CIDR
 
-![](https://i0.hdslb.com/bfs/album/51ce0c156b9aff0b3155b546c2fa873f8ff793ab.png)
+![](https://pic.imgdb.cn/item/63edb611f144a01007b1b880)
 
 > 构成超网
 
-![](https://i0.hdslb.com/bfs/album/3267fa8ea7cee146566592a94caa76cba75fd35f.png)
+![](https://pic.imgdb.cn/item/63edb60ef144a01007b1b4f6)
 
 *   通过习题来练习一下
 
-![](https://i0.hdslb.com/bfs/album/c24b38b319ce04357b95f667e2612cabc697a2bc.png)
+![](https://pic.imgdb.cn/item/63edb60bf144a01007b1aea2)
 
 前 24 位为网络前缀，后 8 位又进行了子网划分。通过子网掩码来确定子网掩码的位数。258 转换为二进制为 11111000。 子网位数为 5，最大子网个数为 2^5 =32, 分配地址个数 为 2^3 -2=6。 (减 2 是因为不能全为 0 或全为 1)。
 
@@ -1428,7 +1430,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 由于在实际网络的链路上传送数据帧时，最终必须使用 MAC 地址，如图所示。因此我们需要一种协议来获取 MAC 地址。
 
-![](https://i0.hdslb.com/bfs/album/e67f59d4680af07bbdedc09cd8e1b0938d49b582.png)
+![](https://pic.imgdb.cn/item/63edb607f144a01007b1a9a3)
 
 **ARP 协议** : 完成主机或路由器 IP 地址到 MAC 地址的映射。
 
@@ -1445,7 +1447,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 *   具体过程如图所示
     
 
-![](https://i0.hdslb.com/bfs/album/32d4577a8c702010b9f579dd59803c4f4db85187.png)
+![](https://pic.imgdb.cn/item/63edb603f144a01007b1a3df)
 
 ### 4.10 DHCP 协议
 
@@ -1455,19 +1457,19 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 > 使用过程
 
-![](https://i0.hdslb.com/bfs/album/a85cc184a6e01429d4042e770e21cb7fc7b3d1d5.png)
+![](https://pic.imgdb.cn/item/63edb5fff144a01007b19e81)
 
 ### 4.11 ICMP 协议
 
 > 作用
 
-![](https://i0.hdslb.com/bfs/album/147ab74559daa10fb74ddbc4b8846c357ecc5682.png)
+![](https://pic.imgdb.cn/item/63edb5fbf144a01007b19783)
 
 从图中可以看出 ICMP 和传输层紧密相连。因此它的作用就是**为了更有效地转发 IP 数据报和提高交付成功的机会。**
 
 > 构成
 
-![](https://i0.hdslb.com/bfs/album/050a5d9382bd64d8d4bd6ae3c80b685ef7001db1.png)
+![](https://pic.imgdb.cn/item/63edb5f8f144a01007b193db)
 
 *   从图中可以看出 ICMP 报文分为差错报文和询问报文。
 
@@ -1481,7 +1483,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 > 差错报文构成
 
-![](https://i0.hdslb.com/bfs/album/3dc2ae55d86948315ee963bd3f5a7ca5e480481e.png)
+![](https://pic.imgdb.cn/item/63edb5f4f144a01007b18d10)
 
 > 不发送 ICMP 报文的情况
 
@@ -1503,7 +1505,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 > ICMP 的应用
 
-![](https://i0.hdslb.com/bfs/album/0730b7fd62318d94f4d7cfa995dca719277b6c21.png)
+![](https://pic.imgdb.cn/item/63edb5eff144a01007b184e3)
 
 ### 4.12 IPv6 数据报
 
@@ -1516,11 +1518,11 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 #### 1. 数据报格式
 
-![](https://i0.hdslb.com/bfs/album/419807c9916999737db8fe147be47618285372b5.png)
+![](https://pic.imgdb.cn/item/63edb5e7f144a01007b17730)
 
 *   详细的数据报格式
 
-![](https://i0.hdslb.com/bfs/album/0005bc8e5b2be515cffaa0e064f2be8d3888beac.png)
+![](https://pic.imgdb.cn/item/63edb5e4f144a01007b172c6)
 
 #### 2. IPv4 和 IPv6 的区别
 
@@ -1538,7 +1540,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 #### 3.IPv6 的表示形式
 
-![](https://i0.hdslb.com/bfs/album/ef6f04e0f5cc1efbf552463ab4d0db72af042203.png)
+![](https://pic.imgdb.cn/item/63edb5dff144a01007b16bcd)
 
 #### 4. IPv6 向 IPv4 过度策略
 
@@ -1550,7 +1552,7 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 通过使用互联网络的基础设施在网络之间传递数据的方式。使用隧道传递的数据（或负载) 可以是不同协议的数据帧或包。** 隧道协议将其它协议的数据帧或包重新封装然后通过隧道发送。** 意思就是将 IPv6 作为 IPv4 的数据部分，继续传输。到时候解封装。
 
-![](https://i0.hdslb.com/bfs/album/6c16296e86e9e5886a16c2fb02ccd7c6142ba8d2.png)
+![](https://pic.imgdb.cn/item/63edb5dcf144a01007b166ba)
 
 ### 4.13 路由算法与路由协议概述
 
@@ -1558,13 +1560,13 @@ CSMA/CA 主要用于无线局域网。CSMA/CD 主要用于有线局域网。
 
 *   每一个路由里边都有一张路由表。表的结构如下图所示。由路由算法来填写表中内容，找出最佳路径。
 
-![](https://i0.hdslb.com/bfs/album/6de37de6c04044d29778f7646eeb260f915abb5e.png)
+![](https://pic.imgdb.cn/item/63edb5d8f144a01007b161f4)
 
 #### 2. 分类
 
-![](https://i0.hdslb.com/bfs/album/1e6ec43487e60385fc87bb5c8141609f878878d5.png)
+![](https://pic.imgdb.cn/item/63edb5d6f144a01007b15e99)
 
-![](https://i0.hdslb.com/bfs/album/c34290855a43ca734d15390f71c733441e6d0993.png)
+![](https://pic.imgdb.cn/item/63edb5d1f144a01007b157ed)
 
 #### 3. 分层次的路由选择协议
 
@@ -1589,15 +1591,15 @@ RIP 协议要求网络中每一个路由器都维护从它自己到其他每一�
 
 **RIP 协议只适用于小型互联网。**
 
-![](https://i0.hdslb.com/bfs/album/197a25481513357870484f4d8f0627378893a8ad.png)
+![](https://pic.imgdb.cn/item/63edb5cbf144a01007b14f88)
 
 *   路由表如何更新？
 
-![](https://i0.hdslb.com/bfs/album/af4bf9237c6508acd85c459c1a567ec11edea3fa.png)
+![](https://pic.imgdb.cn/item/63edb5c7f144a01007b1498a)
 
 *   通过例题来加深理解
 
-![](https://i0.hdslb.com/bfs/album/514b69c5a0329681f0fb7d548170e8b62dd31e0a.png)
+![](https://pic.imgdb.cn/item/63edb5c4f144a01007b14403)
 
 ### 4.15 OSPF 协议（链路状态算法）
 
@@ -1605,7 +1607,7 @@ RIP 协议要求网络中每一个路由器都维护从它自己到其他每一�
 
 OSPF 最主要的特征就是**使用分布式的链路状态协议**。
 
-![](https://i0.hdslb.com/bfs/album/c0863aa1e66c1fc807d05378abda740aaa156824.png)
+![](https://pic.imgdb.cn/item/63edb5c2f144a01007b141ef)
 
 > 链路状态路由算法
 
@@ -1638,19 +1640,19 @@ OSPF 最主要的特征就是**使用分布式的链路状态协议**。
 
 自治系统之间的使用的协议就是 BGP 协议。
 
-![](https://i0.hdslb.com/bfs/album/fb3f20b3436a24fe3d5fa97c2d93e44f9f215d73.png)
+![](https://pic.imgdb.cn/item/63edb5bdf144a01007b13abf)
 
 *   和谁交换？
 
-![](https://i0.hdslb.com/bfs/album/a1f1c024940fdb978abd0c63ce39f8add84fcee1.png)
+![](https://pic.imgdb.cn/item/63edb5baf144a01007b13620)
 
 > 交换信息的过程
 
 BGP 所交换的网络可达性的信息就是要**到达某个网络所要经过的一系列 AS**。当 BGP 发言人互相交换了网络可达性的信息后，各 BGP 发言人就根据所采用的策略从收到的路由信息中找出到达各 AS 的较好路由。如图所示。
 
-![](https://i0.hdslb.com/bfs/album/f6bd924cf408c6bc8315909b10f8de9a2df21911.png)
+![](https://pic.imgdb.cn/item/63edb5b6f144a01007b13103)
 
-![](https://i0.hdslb.com/bfs/album/e2a6ebb13272ce4e7c12c30e2649131d6a5d4e55.png)
+![](https://pic.imgdb.cn/item/63edb5b3f144a01007b12cab)
 
 > 特点
 
@@ -1659,7 +1661,7 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 
 > BGP 报文类型
 
-![](https://i0.hdslb.com/bfs/album/1b1709346a9aa2d300a179d2fd49235524ad25de.png)
+![](https://pic.imgdb.cn/item/63edb5b1f144a01007b128bd)
 
 ### 4.17 三种协议比较
 
@@ -1667,7 +1669,7 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 *   OSPF 是一个内部网关协议，要交换的信息量较大，应使报文的长度尽量短，所以不使用传输层协议（如 UDP 或 TCP)，而是直接采用 IP。
 *   BGP 是一个外部网关协议，在不同的自治系统之间交换路由信息，由于网络环境复杂，需要保证可靠传输所以采用 TCP。
 
-![](https://i0.hdslb.com/bfs/album/a1c209a2799cc66f725bef8152165b32216ef60a.png)
+![](https://pic.imgdb.cn/item/63edb5adf144a01007b1233d)
 
 ### 4.18 IP 组播
 
@@ -1677,15 +1679,15 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 *   广播： 一对多（多指的所有）
 *   组播： 一对多（多指的特定主机）
 
-![](https://i0.hdslb.com/bfs/album/db100b987728aed5d8b1e3430a45c6082a5c5b56.png)
+![](https://pic.imgdb.cn/item/63edb5aaf144a01007b11eda)
 
 #### 2. IP 组播地址
 
-![](https://i0.hdslb.com/bfs/album/f4e878d521bfa11e97f112d84587b54d7696f528.png)
+![](https://pic.imgdb.cn/item/63edb5a8f144a01007b11aaf)
 
 #### 3. 硬件组播
 
-![](https://i0.hdslb.com/bfs/album/da00c98987cda352a024353bf5ca00b795bd73d7.png)
+![](https://pic.imgdb.cn/item/63edb5a5f144a01007b116b4)
 
 #### 4. IGMP 协议和组播路由选择协议
 
@@ -1693,7 +1695,7 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 
 > IGMP 工作阶段
 
-![](https://i0.hdslb.com/bfs/album/8e1efa4a9c6d557f2f8611d7fd324d7acf83523f.png)
+![](https://pic.imgdb.cn/item/63edb5a1f144a01007b10ecd)
 
 *   组播路由选择协议目的是找出以源主机为根节点的组播转发树。
     
@@ -1706,7 +1708,7 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 
 *   感兴趣的小伙伴可以去了解一下，这里不做过多讲解。
 
-![](https://i0.hdslb.com/bfs/album/037d7769ca02f4ff5a6f259eb2007e6570102a2b.png)
+![](https://pic.imgdb.cn/item/63edb59cf144a01007b104d6)
 
 ### 4.19 移动 IP
 
@@ -1724,11 +1726,11 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 
 *   A 进入外部网络
 
-![](https://i0.hdslb.com/bfs/album/523c7bb8814c5bcf77b830f9cd140eb757706c6c.png)
+![](https://pic.imgdb.cn/item/63edb596f144a01007b0fd96)
 
 *   A 进入下一个外部网络或者回到了归属网络
 
-![](https://i0.hdslb.com/bfs/album/aeefa63bc7ba0021572740aee3d77ead603bc9ae.png)
+![](https://pic.imgdb.cn/item/63edb594f144a01007b0fa29)
 
 ### 4.20 网络层设备
 
@@ -1736,30 +1738,30 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 
 路由器是一种具有多个输入端口和多个输出端口的专用计算机，其任务是**转发分组**。
 
-![](https://i0.hdslb.com/bfs/album/d404c68b662422e2cbe31deccd175f9039d92072.png)
+![](https://pic.imgdb.cn/item/63edb590f144a01007b0f56f)
 
 > 输入端口对线路上收到的分组的处理
 
 *   输入端口中的查找和转发功能在路由器的交换功能中是最重要的。
 
-![](https://i0.hdslb.com/bfs/album/85e9341296b6708330c1bd7209635a7a08a3fed8.png)
+![](https://pic.imgdb.cn/item/63edb58ef144a01007b0f23a)
 
 > 输出端口将交换结构传送来的分组发送到线路
 
 *   若路由器处理分组的速率赶不上分组进入队列的速率，则队列的存储空间最终必定减少到零，这就使后面再进入队列的分组由于没有存储空间而只能被丢弃。
 *   路由器中的输入或输出队列产生溢出是造成分组丢失的重要原因。
 
-![](https://i0.hdslb.com/bfs/album/f1fae217cd67a40d5d515229c3b0218942637ddb.png)
+![](https://pic.imgdb.cn/item/63edb58bf144a01007b0edd6)
 
 > 三层设备的区别
 
-![](https://i0.hdslb.com/bfs/album/eab4695104f885ee591702701df0090ddb36871b.png)
+![](https://pic.imgdb.cn/item/63edb588f144a01007b0e9ca)
 
 > 路由表与路由转发
 
 *   路由表根据路由选择算法得出的，主要用途是**路由选择**，总用软件来实现。结构如下图所示。
 
-![](https://i0.hdslb.com/bfs/album/8c7986fff8d65356d5ffbacef8beb8c78a3a0c6c.png)
+![](https://pic.imgdb.cn/item/63edb585f144a01007b0e61f)
 
 转发表由路由表得来，可以用软件实现，也可以用特殊的硬件来实现。**转发表必须包含完成转发功能所必需的信息**，在转发表的每一行必须包含从要到达的目的网络到输出端口和某些 MAC 地址信息的映射。
 
@@ -1778,7 +1780,7 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 
 > 传输层最重要的两个协议——TCP 和 UDP。
 
-![](https://i0.hdslb.com/bfs/album/6f7d62ee0a653b9b158e4486e9e1eb53a758e265.png)
+![](https://pic.imgdb.cn/item/63edb582f144a01007b0e1e1)
 
 > 寻址和端口
 
@@ -1788,11 +1790,11 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 *   端口号只有本地意义，在因特网中不同计算机的相同端口是没有联系的。
 *   端口号长度为 16bit，能表示 65536 个不同的端口号。
 
-![](https://i0.hdslb.com/bfs/album/173df33c0f492421fbf53d0043dfba7f01da0687.png)
+![](https://pic.imgdb.cn/item/63edb580f144a01007b0dfd8)
 
 *   几个常用的端口号
 
-![](https://i0.hdslb.com/bfs/album/e69869ce037bcaec3dcabdc2f43d75cfe123684d.png)
+![](https://pic.imgdb.cn/item/63edb57ef144a01007b0dcf0)
 
 ### 5.2 UDP 协议
 
@@ -1806,45 +1808,45 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 4.  UDP 无拥塞控制，适合很多实时应用。
 5.  UDP 首部开销小，8B，TCP 20B。
 
-![](https://i0.hdslb.com/bfs/album/97969ddecfec2de60b33de98c219062ccb41a494.png)
+![](https://pic.imgdb.cn/item/63edb57af144a01007b0d870)
 
 > UDP 的首部格式
 
-![](https://i0.hdslb.com/bfs/album/4aed15902518fa4422299e812ba202c3304150b6.png)
+![](https://pic.imgdb.cn/item/63edb577f144a01007b0d3d7)
 
 > UDP 校验
 
 *   这部分我暂时也咩看懂，所以不做太多解释。
 
-![](https://i0.hdslb.com/bfs/album/20cf199af60e14b564a0a5a59b8f61682249d230.png)
+![](https://pic.imgdb.cn/item/63edb573f144a01007b0cf52)
 
-![](https://i0.hdslb.com/bfs/album/d0387c731ff612c08566cb39f610aad6016f3336.png)
+![](https://pic.imgdb.cn/item/63edb571f144a01007b0cb8a)
 
 ### 5.3 TCP 协议
 
 #### 1.TCP 协议的特点
 
-![](https://i0.hdslb.com/bfs/album/e45cb2db0fe3f557dc4c0452b7fedf5dcefbd253.png)
+![](https://pic.imgdb.cn/item/63edb56cf144a01007b0c5d8)
 
 *   字节流发送如图所示
 
-![](https://i0.hdslb.com/bfs/album/5fe49bd121b0c17609608961ef7ff3ce6f09d7ba.png)
+![](https://pic.imgdb.cn/item/63edb569f144a01007b0c14b)
 
 #### 2. TCP 报文段首部格式
 
-![](https://i0.hdslb.com/bfs/album/f798bcd4e6574fdc98da178f33cfc120e6c1cf80.png)
+![](https://pic.imgdb.cn/item/63edb566f144a01007b0bc0a)
 
-![](https://i0.hdslb.com/bfs/album/14e71b2da875ae807f07eb27cb3e36f98ba30516.png)
+![](https://pic.imgdb.cn/item/63edb563f144a01007b0b684)
 
-![](https://i0.hdslb.com/bfs/album/b765a3a06e867fd8bf00fd208ffe7921ec391cc0.png)
+![](https://pic.imgdb.cn/item/63edb55ef144a01007b0af23)
 
 ### 5.4 TCP 连接管理
 
-![](https://i0.hdslb.com/bfs/album/f46c58904ef0a6b2086fa65291fc2fa1d1619ddd.png)
+![](https://pic.imgdb.cn/item/63edb55cf144a01007b0aaf6)
 
 #### 1. 建立连接
 
-![](https://i0.hdslb.com/bfs/album/ed70b2fd796dd00e6919449955cdcdac973ce136.png)
+![](https://pic.imgdb.cn/item/63edb559f144a01007b0a4c0)
 
 假设运行在一台主机（客户) 上的一个进程想与另一台主机（服务器) 上的一个进程建立一条连接，客户应用进程首先通知客户 TCP，他想建立一个与服务器上某个进程之间的连接，客户中的 TCP 会用以下步骤与服务器中的 TCP 建立一条 TCP 连接:
 
@@ -1853,18 +1855,18 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 *   ACK 确认连接
 *   ack 确认号
 
-![](https://i0.hdslb.com/bfs/album/3bff643d5ff20ea409df7e0a3b1c80fc5048c6eb.png)
+![](https://pic.imgdb.cn/item/63edb556f144a01007b0a1e4)
 
 #### 2. 释放连接
 
-![](https://i0.hdslb.com/bfs/album/97878e2cce25935dd53f4e4a2c858fcdce66f9e7.png)
+![](https://pic.imgdb.cn/item/63edb553f144a01007b09d6d)
 
 参与一条 TCP 连接的两个进程中的任何一个都能终止该连接，连接结束后，主机中的 “资源”(缓存和变量）将被释放。  
-![](https://i0.hdslb.com/bfs/album/0c16bbea3597646cf783d5210ce2bc473f40feb4.png)
+![](https://pic.imgdb.cn/item/63edb54ef144a01007b095fd)
 
 ### 5.5 TCP 可靠传输
 
-![](https://i0.hdslb.com/bfs/album/fc58c6d144db1b2f0b66c8bd95134a74adac3157.png)
+![](https://pic.imgdb.cn/item/63edb549f144a01007b08e5b)
 
 可靠传输： 保证接收方进程从缓存区读出的字节流与发送方发出的字节流是完全一样的。
 
@@ -1882,7 +1884,7 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 
 在通信过程中，接收方根据自己接收缓存的大小，动态地调整发送方的发送窗口大小，即接收窗口 rwnd(接收方设置确认报文段的窗口字段来将 rwnd 通知给发送方），发送方的发送窗口取接收窗口 rwnd 和拥塞窗口 cwnd 的最小值。
 
-![](https://i0.hdslb.com/bfs/album/f8dd5654835ae7e0c549372e0631665f9919a9c9.png)
+![](https://pic.imgdb.cn/item/63edb547f144a01007b08a1b)
 
 ### 5.7 TCP 拥塞控制
 
@@ -1898,24 +1900,24 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 
 流量控制是点对点的。
 
-![](https://i0.hdslb.com/bfs/album/2d9d7115609740562e4b5dcf0e4d51c29c1f22cc.png)
+![](https://pic.imgdb.cn/item/63edb540f144a01007b081e4)
 
 *   在介绍拥塞控制算法之前，先设定几个前提条件，便于理解。
 
-![](https://i0.hdslb.com/bfs/album/52e95d712e6c1da68bf1850fe0002893ee035394.png)
+![](https://pic.imgdb.cn/item/63edb53cf144a01007b07a8f)
 
 #### 1. 慢开始和拥塞避免
 
 *   刚开始进行指数增长，到达 ssthresh 之后，进行加法增长。
 *   遇到网络拥塞之后，降到初始值，重复之前的步骤。新的 ssthresh 设为 拥塞时窗口大小的一半。
 
-![](https://i0.hdslb.com/bfs/album/3b541a37c3a1ff0d47af091a06600baa8d449299.png)
+![](https://pic.imgdb.cn/item/63edb538f144a01007b0753e)
 
 #### 2. 快重传和快回复
 
 *   前面的步骤和之前一样。不同的是降低拥塞窗口的时机和大小不同。如图所示，当收到 3 个重复的确认时，执行快重传算法，拥塞窗口降到原来的一般。
 
-![](https://i0.hdslb.com/bfs/album/c8f9adbd2ddbcc85f236255151102c58aaee8356.png)
+![](https://pic.imgdb.cn/item/63edb535f144a01007b06e0b)
 
 ## 六、应用层
 ------
@@ -1937,11 +1939,11 @@ BGP 所交换的网络可达性的信息就是要**到达某个网络所要经�
 
 #### 1. 客户 / 服务器（C/S）模型
 
-![](https://i0.hdslb.com/bfs/album/88db7d45f75c59ebcd62ecf8b148e7542b172f31.png)
+![](https://pic.imgdb.cn/item/63edb52ff144a01007b066dd)
 
 #### 2. P2P 模型
 
-![](https://i0.hdslb.com/bfs/album/1237601f8c542360befdec8bc1bce8a3c95ff59a.png)
+![](https://pic.imgdb.cn/item/63edb52cf144a01007b0622a)
 
 ### 6.3 DNS 系统
 
@@ -1951,17 +1953,17 @@ DNS 服务的作用 : 将域名解析成 IP 地址。
 
 *   com 有一个点，就是 根
 
-![](https://i0.hdslb.com/bfs/album/4a80cffa1cac5b67674f79c4bfe80d64a9ad813b.png)
+![](https://pic.imgdb.cn/item/63edb528f144a01007b05b47)
 
 #### 2.DNS 服务器
 
-![](https://i0.hdslb.com/bfs/album/fb2b77ff7948b227139b708fb178421598e55dfb.png)
+![](https://pic.imgdb.cn/item/63edb525f144a01007b0558d)
 
 #### 3. 域名解析过程
 
 域名解析主要有两种方法： ①递归（考别人）②迭代（靠自己）
 
-![](https://i0.hdslb.com/bfs/album/ec98d7e7ab736830fc1942ebb5fc67ca84b0ea6c.png)
+![](https://pic.imgdb.cn/item/63edb521f144a01007b04f81)
 
 ### 6.4 文件传输协议 FTP
 
@@ -1976,19 +1978,19 @@ DNS 服务的作用 : 将域名解析成 IP 地址。
 
 > 工作原理
 
-![](https://i0.hdslb.com/bfs/album/90740d3f46b55d9ce41bad815023a2144dac38c6.png)
+![](https://pic.imgdb.cn/item/63edb517f144a01007b03e5d)
 
-![](https://i0.hdslb.com/bfs/album/30e92615d0cf0941b0224072e9f94c74799dc5fe.png)
+![](https://pic.imgdb.cn/item/63edb513f144a01007b03790)
 
 ### 6.5 电子邮件
 
 #### 1. 信息格式
 
-![](https://i0.hdslb.com/bfs/album/6ac39be7f92771e49af7c63a3557957a773c9f39.png)
+![](https://pic.imgdb.cn/item/63edb50ef144a01007b03093)
 
 #### 2. 组成结构
 
-![](https://i0.hdslb.com/bfs/album/842a57dfc64bfeb38d92dd9285368a29ab5bba1a.png)
+![](https://pic.imgdb.cn/item/63edb509f144a01007b02975)
 
 #### 3.SMAP 协议
 
@@ -1998,15 +2000,15 @@ DNS 服务的作用 : 将域名解析成 IP 地址。
 
 > SMAP 通信的三个阶段
 
-![](https://i0.hdslb.com/bfs/album/4b07de9ff8ee61a834acd215561880d6c4f1caf1.png)
+![](https://pic.imgdb.cn/item/63edb504f144a01007b01e44)
 
 #### 4. MIME
 
-![](https://i0.hdslb.com/bfs/album/3b88a53e31b76e96393ee48a10afaed4205bfbb3.png)
+![](https://pic.imgdb.cn/item/63edb4fff144a01007b0163f)
 
 #### 5. 邮局协议 POP3
 
-![](https://i0.hdslb.com/bfs/album/561e36068e7fad066675acd06193628974bc5415.png)
+![](https://pic.imgdb.cn/item/63edb4fbf144a01007b01004)
 
 #### 6. 国际报文存取协议 IMAP
 
@@ -2015,7 +2017,7 @@ DNS 服务的作用 : 将域名解析成 IP 地址。
 
 #### 7. 基于万维网的电子协议
 
-![](https://i0.hdslb.com/bfs/album/39611db85ca0ecbe4a2de75eb3cdc2db2ad46693.png)
+![](https://pic.imgdb.cn/item/63edb4f6f144a01007b0065f)
 
 ### 6.6 万维网和 HTTP 协议
 
@@ -2025,7 +2027,7 @@ DNS 服务的作用 : 将域名解析成 IP 地址。
 
 我们需要一个统一标识符（URL）来区分万维网上的各种资源。
 
-![](https://i0.hdslb.com/bfs/album/00780ee036127b933b9a2ab0245bf890fba4c1fe.png)
+![](https://pic.imgdb.cn/item/63edb4f1f144a01007b0004b)
 
 用户通过点击超链接 (http:/www.baidu.com) 获取资源，这些资源通过超文本传输协议 HTTP 传送给使用者。
 
@@ -2037,14 +2039,14 @@ DNS 服务的作用 : 将域名解析成 IP 地址。
 
 HTTP 协议定义了浏览器（万维网客户进程〉怎样向万维网服务器请求万维网文档，以及服务器怎样把文档传送给浏览器。
 
-![](https://i0.hdslb.com/bfs/album/3ee644ae9bec0f32195912b3514140f98ff466bb.png)
+![](https://pic.imgdb.cn/item/63edb4edf144a01007affad3)
 
 > HTTP 协议的特点
 
-![](https://i0.hdslb.com/bfs/album/4c4e9a95905f27081d510869d8f1f23f74f4ee2d.png)
+![](https://pic.imgdb.cn/item/63edb4e7f144a01007aff4a7)
 
 > 报文结构
 
-![](https://i0.hdslb.com/bfs/album/14c122549f6cbca06e8e5160a77893f1b65368db.png)
+![](https://pic.imgdb.cn/item/63edb4e3f144a01007afede3)
 
-![](https://i0.hdslb.com/bfs/album/936b944a17ba25a9f2658de904b30f4d67434f50.png)
+![](https://pic.imgdb.cn/item/63edb4def144a01007afe73d)
