@@ -100,8 +100,14 @@ a:hover {
 	height: 160px;
 	padding: 20px;
 	background: #FFB46A url(../images/img01.gif) no-repeat;
-	text-align: right;
-	font-size: 2.2em;
+	text-align: center;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size: 2em;
+}
+
+.logo #hollow{
+	text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+	color:#fff;
 }
 
 .logo #logo2 {
@@ -138,7 +144,7 @@ a:hover {
 	float: right;
 	width: 460px;
 	background: url(../images/img05.gif) no-repeat right top;
-	color: #FFA954;
+	color: #91cb7b;
 }
 
 #main a {
@@ -252,4 +258,3 @@ a:hover {
 	padding: 10px;
 	border-top: 1px solid #D1BC5C;
 }
-
