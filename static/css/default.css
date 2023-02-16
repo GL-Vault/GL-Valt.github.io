@@ -253,17 +253,3 @@ a:hover {
 	border-top: 1px solid #D1BC5C;
 }
 
-/* Footer */
-
-#footer {
-	clear: both;
-	width: 660px;
-	margin: 0 auto;
-	padding: 10px 0;
-}
-
-#footer p {
-	margin: 0;
-	text-align: right;
-	font-size: x-small;
-}
