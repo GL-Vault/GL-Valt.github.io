@@ -1,0 +1,73 @@
+.post-list {
+    width: 100%;
+    margin-bottom: 10px;
+    min-height: 500px;
+    padding: 5px;
+}
+
+.post-list>.post-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f6f6f6;
+    margin: 10px 5px;
+    word-wrap: break-word;
+}
+
+.post-list>.post-item>.post-item-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.post-list>.post-item>.post-item-body>.post-item-text {
+    width: 100%;
+}
+
+.post-list>.post-item>.post-item-body>.post-item-text>.post-item-title:visited {
+    color: #4e4099;
+}
+
+.post-list>.post-item>.post-item-body>.post-item-text>.post-item-title {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    outline: none;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.post-list>.post-item>.post-item-body>.post-item-text>.post-item-summary {
+    display: block;
+    color: #555;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-overflow: clip;
+}
+
+.post-list>.post-item>.post-item-body>.post-item-text>*:not(:first-child) {
+    margin-top: 9px;
+}
+
+.post-list>.post-item>.post-item-body>.post-item-text>.post-item-summary>post-item-img{
+    color: inherit;
+    text-decoration: inherit;
+
+}
+
+
+.post-item .avatar {
+    border-radius: 0;
+    padding: 1px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+}

@@ -1,0 +1,21 @@
+nav{
+    margin:10px 20px;
+}
+.navbar{
+    border-radius: 10px;
+}
+
+.nav-right > li > a{
+    padding-right: 0px;
+}
+
+.main{
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-index{
+    text-align: center;
+}
