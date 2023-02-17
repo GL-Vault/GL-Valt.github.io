@@ -73,7 +73,7 @@
                             <div class="post-item-text">
                                 <a class="post-item-title" href="https://www.cnblogs.com/zjdxr-up/p/17128753.html" target="_blank">Maven依赖冲突解决总结</a>
                                 <p class="post-item-summary">
-                                    <a class="post-item-img" href="https://www.cnblogs.com/zjdxr-up/p/17128753.html">
+                                    <a class="post-item-img" href="https://www.cnblogs.com/zjdxr-up/p/17128753.html" target="_blank">
                                         <img src="static/images/20181030203847.png" class="avatar" alt="博主头像">
                                     </a>
                                     Jar包冲突的通常表现 Jar包冲突往往是很诡异的事情，也很难排查，但也会有一些共性的表现。 抛出java.lang.ClassNotFoundException：典型异常，主要是依赖中没有该类。导致原因有两方面：第一，的确没有引入该类；第二，由于Jar包冲突，Maven仲裁机制选择了错误的版本，导致加载的Jar包中没有该类。 抛出java.lang.NoSuchMethodError：找不到特定的方法。Jar包冲突，导致选择了错误的依赖版本，该依赖版本中的类对不存在该方法，或该方法已经被升级。
