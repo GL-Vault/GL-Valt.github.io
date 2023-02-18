@@ -83,7 +83,7 @@
 .inner-clock-face::before {
   content: "";
   position: absolute;
-  top: 53%;
+  top: 55%;
   left: 56%;
   width: 10px;
   height: 10px;
